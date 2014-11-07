@@ -143,7 +143,7 @@ var TheMovieProjectHome = {
 		// considered popular.
 		theMovieDb.discover.getMovies(
 			{
-				'vote_average.gte': 7,
+				'vote_average.gte': 6,
 				'sort_by': 'vote_count.desc',
 				'primary_release_year': year
 			},
