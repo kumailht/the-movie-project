@@ -7,7 +7,7 @@ var API_KEY = '0ed87398ff75326c8d57dd31f3f44535';
 var DISABLE_CACHING = false;
 
 // takes template (string) and dict(object literal)
-// each key is a variable in the template defined as [[variable]]
+// each key is a variable in the template defined as {{ variable }}
 // the function returns the template with all the variables replaced with thier respective values
 function render(template, dict) {
 	for (var i in dict) {
@@ -35,7 +35,7 @@ jQuery.fn.order = function(asc, fn) {
 	});
 };
 
-// Holds the Home Page Single Page Application
+// Holds the Movie Project Application
 var TheMovieProjectHome = {
 	thumb_width: 100,
 	start_year: 1927,
