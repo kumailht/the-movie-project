@@ -37,7 +37,7 @@ jQuery.fn.order = function(asc, fn) {
 
 // Holds the Movie Project Application
 var TheMovieProjectHome = {
-	thumb_width: 100,
+	thumb_width: 200,
 	start_year: 1927,
 	end_year: new Date().getFullYear() + 1,
 
